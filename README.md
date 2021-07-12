@@ -29,6 +29,12 @@ This restriction seems temporarily, but there is also no sign of when or if it e
 The catch-22 of receiving cycles is that a canister needs some minimum cycles to run the method that receives cycles.
 The only way to top up a canister from outside is to use ledger/cycles minting canisters on the NNS.
 
+4. According to the Interface Specification, there is an "unknown" implementation limit of `MAX_CANISTER_BALANCE`.
+
+At the moment this limit seems to be the max of unsigned 64 bit integer.
+However, it is not clear when or if this will continue to be the same.
+Even 64 bit might become a problem in the future due to token economy.
+
 ## How to contribute?
 
 We are actively investigating solutions to the above problems, and we need your contribution.
