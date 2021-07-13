@@ -17,7 +17,7 @@ Anything less free is doing more harm than good.
 
 1. Canisters can send cycles along with an outgoing message, but there is no common interface to *only* send and receive cycles.
 
-The solution is to propose [a standard interface for common cycle operations](https://github.com/CyclesCommon/initiative/pull/1), canisters that follow this standard will be able to exchange cycles with less friction.
+The solution is to propose [a standard interface for common cycle operations](https://github.com/CyclesCommon/cycles-common/pull/1), canisters that follow this standard will be able to exchange cycles with less friction.
 For example, the ability to withdraw cycles before unistalling a canister.
 
 2. Cycles can be transferred from a "verified application" subnet to an ordinary "application" subnet, but not in the other direction.
