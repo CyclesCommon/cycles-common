@@ -2,7 +2,7 @@
 
 With the launch of the [Internet Computer] blockchain, the concepts of [Canisters] and [Cycles] are introduced:
 
-- Canisters are programs running on the blockchain with automatically persistented memory state. They communicate with each other by sending messages.
+- Canisters are programs running on the blockchain with automatically persisted memory state. They communicate with each other by sending messages.
 - Cycles are both a unit of computation cost and a native token that can be transferred between canisters.
 
 ## Canisters live and breath cycles, and cycles want to be free!
@@ -10,7 +10,7 @@ With the launch of the [Internet Computer] blockchain, the concepts of [Canister
 **Free** as in freedom, not in beer.
 Computation and storage are resources must be paid for in cycles, but that is not the point here.
 
-To be more precise, **cycles shall be freely transferrable**.
+To be more precise, **cycles shall be freely transferable**.
 Anything less free is doing more harm than good.
 
 ## What are the problems?
@@ -18,7 +18,7 @@ Anything less free is doing more harm than good.
 1. Canisters can send cycles along with an outgoing message, but there is no common interface to *only* send and receive cycles.
 
 The solution is to propose [a standard interface for common cycle operations](https://github.com/CyclesCommon/cycles-common/pull/1), canisters that follow this standard will be able to exchange cycles with less friction.
-For example, the ability to withdraw cycles before unistalling a canister.
+For example, the ability to withdraw cycles before uninstalling a canister.
 
 2. Cycles can be transferred from a "verified application" subnet to an ordinary "application" subnet, but not in the other direction.
 
@@ -40,7 +40,7 @@ Even 64 bit might become a problem in the future due to token economy.
 We are actively investigating solutions to the above problems, and we need your contribution.
 Please participate in the discussion, make proposals / pull requests, and best of all, implement the cycles interface for your canisters!
 
-Once the first version of the common interface is finalized, we'll start a **Free Your Cycles** movement giving out rewards to canisters that implement this interfacde.
+Once the first version of the common interface is finalized, we'll start a **Free Your Cycles** movement giving out rewards to canisters that implement this interface.
 So stay tuned!
 
 [Internet Computer]: https://internetcomputer.org
